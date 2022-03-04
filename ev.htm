@@ -1,0 +1,447 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+	<title>AKREP NALANIN EVI</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
+    <link rel="File-List" href="ev_dosyalar/filelist.xml">
+
+    <base target="_self">
+    <!--[if !mso]>
+    <style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+    </style>
+    <![endif]--><!--[if gte mso 9]>
+    <xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+    </xml><![endif]-->
+</head>
+
+<body background="images/hearts.jpg" bgcolor="#ffffff" text="blue" vlink="#FF0000" link="#0000FF" alink="#00FFFF">
+<script LANGUAGE="JavaScript">
+<!--hide
+function time_of_day()
+{
+ this.document.write("<FORM NAME='clock' onSubmit='0'><INPUT TYPE='text' NAME='face' SIZE=9 VALUE =''></FORM>");
+}
+
+var timerID = null;
+var timerRunning = false;
+var hours;
+var minutes;
+var seconds;
+var ampm;
+var displayhours;
+
+function stopclock()
+{
+ if(timerRunning)
+  clearTimeout(timerID);
+ timerRunning = false;
+}
+
+function startclock()
+{
+ // Make sure the clock is stopped
+ stopclock();
+  hours = 16;
+ minutes = 57;
+ seconds = 6;
+ if (hours >= 12)
+  ampm="PM";
+ else
+  ampm="AM";
+ if (hours > 12)
+  displayhours = hours - 12;
+ else if (hours == 0)
+  displayhours = 12;
+ else
+  displayhours = hours;
+  showtime();
+}
+
+function showtime()
+{
+ seconds++;
+ if (seconds >= 60)
+ {
+  seconds -= 60;
+  minutes++;
+  if (minutes >= 60)
+  {
+   minutes -= 60;
+   hours++;
+   if (hours > 23)
+    hours -= 24;
+   if (hours >= 12)
+    ampm="PM";
+   else
+    ampm="AM";
+   if (hours > 12)
+    displayhours = hours - 12;
+   else if (hours == 0)
+    displayhours = 12;
+   else
+    displayhours = hours;
+  }
+ }
+ var timeValue = "" + displayhours;
+ timeValue += ((minutes < 10) ? ":0" : ":") + minutes;
+ timeValue += ((seconds < 10) ? ":0" : ":") + seconds;
+ timeValue += ampm;
+ document.clock.face.value = timeValue;
+ timerID = setTimeout("showtime()",972);
+ timerRunning = true;
+}
+//End Hiding-->
+</script>
+
+
+
+
+<script language="javaScript">
+<!-- This Script Created by Randy Bennett: http://home.thezone.net/~rbennett/utility/javahead.htm -->
+<!-- For this and 100s of other Free Javascripts, check out: -->
+<!-- Free-Javascripts.com @ http://www.free-javascripts.com/ -->
+
+function setVariables(){
+         if (navigator.appName == "Netscape") {
+ 				horz=".left";
+				vert=".top";
+				docStyle="document.";
+				styleDoc="";
+				innerW="window.innerWidth";
+				innerH="window.innerHeight";
+				offsetX="window.pageXOffset";
+				offsetY="window.pageYOffset";
+				objectXY="layers[0]";
+
+ }else{
+ 				horz=".pixelLeft";
+				vert=".pixelTop";
+				docStyle="";
+				styleDoc=".style";
+				innerW="document.body.clientWidth"
+				innerH="document.body.clientHeight"
+				offsetX="document.body.scrollLeft"
+				offsetY="document.body.scrollTop"
+				objectXY="object1"
+		}
+
+}
+
+function checkLocation(){
+
+imgwidth=79;  // logo width, in pixels
+imgheight=70;  // logo height, in pixels
+
+
+var availableX=eval(innerW)
+var availableY=eval(innerH)
+
+var currentX=eval(offsetX)
+var currentY=eval(offsetY)
+
+xmax=availableX-(imgwidth+20)+currentX
+ymax=availableY-(imgheight+20)+currentY
+}
+
+var x=-100;
+var y=50;
+var a=5;
+var b=5;
+
+function startMoveR(){
+checkLocation();
+x += a;
+y += b;
+if (y>ymax) b=b*-1
+if (y<10) b=b*-1
+evalMove();
+if (x<xmax+20) setTimeout("startMoveR()",100);
+else setTimeout("startMoveL()",100);
+}
+
+function startMoveL(){
+checkLocation()
+x -= a;
+y += b;
+if (y>ymax-15) b=b*-1
+if (y<10) b=b*-1
+evalMove();
+if (x>0) setTimeout("startMoveL()",100);
+else setTimeout("startMoveR()",100);
+}
+
+//******************************
+function evalMove(){
+        eval(docStyle + objectXY + styleDoc + horz + "=" + x);
+        eval(docStyle + objectXY + styleDoc + vert + "=" + y);
+//setTimeout("checkLocation()",10)
+//******************************
+}
+  </script>
+
+<script language="JavaScript">
+
+<!--
+function MM_controlSound(sndAction,_sndObj) { //v2.0
+  var sndObj = eval( _sndObj );
+  if (sndObj != null) {
+    if (sndAction=='stop') {
+      sndObj.stop();
+    } else {
+      if (navigator.appName == 'Netscape' ) {
+         sndObj.play();
+      } else {
+         if (document.MM_WMP_DETECTED == null) {
+            document.MM_WMP_DETECTED = false;
+            var i;
+            for( i in sndObj )
+               if ( i == "ActiveMovie" ) {
+                  document.MM_WMP_DETECTED = true;
+                  break; }
+         }
+         if (document.MM_WMP_DETECTED)
+            sndObj.play();
+         else if ( sndObj.FileName )
+            sndObj.run();
+}}}}
+
+function MM_timelinePlay(tmLnName, myID) { //v1.2
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,propNum,theObj,firstTime=false;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (myID == null) { myID = ++tmLn.ID; firstTime=true;}//if new call, incr ID
+  if (myID == tmLn.ID) { //if Im newest
+    setTimeout('MM_timelinePlay("'+tmLnName+'",'+myID+')',tmLn.delay);
+    fNew = ++tmLn.curFrame;
+    for (i=0; i<tmLn.length; i++) {
+      sprite = tmLn[i];
+      if (sprite.charAt(0) == 's') {
+        if (sprite.obj) {
+          numKeyFr = sprite.keyFrames.length; firstKeyFr = sprite.keyFrames[0];
+          if (fNew >= firstKeyFr && fNew <= sprite.keyFrames[numKeyFr-1]) {//in range
+            keyFrm=1;
+            for (j=0; j<sprite.values.length; j++) {
+              props = sprite.values[j]; 
+              if (numKeyFr != props.length) {
+                if (props.prop2 == null) sprite.obj[props.prop] = props[fNew-firstKeyFr];
+                else        sprite.obj[props.prop2][props.prop] = props[fNew-firstKeyFr];
+              } else {
+                while (keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]) keyFrm++;
+                if (firstTime || fNew==sprite.keyFrames[keyFrm-1]) {
+                  if (props.prop2 == null) sprite.obj[props.prop] = props[keyFrm-1];
+                  else        sprite.obj[props.prop2][props.prop] = props[keyFrm-1];
+        } } } } }
+      } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+      if (fNew > tmLn.lastFrame) tmLn.ID = 0;
+  } }
+}
+
+function MM_timelineGoto(tmLnName, fNew, numGotos) { //v2.0
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,lastKeyFr,propNum,theObj;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (numGotos != null)
+    if (tmLn.gotoCount == null) tmLn.gotoCount = 1;
+    else if (tmLn.gotoCount++ >= numGotos) {tmLn.gotoCount=0; return}
+  jmpFwd = (fNew > tmLn.curFrame);
+  for (i = 0; i < tmLn.length; i++) {
+    sprite = (jmpFwd)? tmLn[i] : tmLn[(tmLn.length-1)-i]; //count bkwds if jumping back
+    if (sprite.charAt(0) == "s") {
+      numKeyFr = sprite.keyFrames.length;
+      firstKeyFr = sprite.keyFrames[0];
+      lastKeyFr = sprite.keyFrames[numKeyFr - 1];
+      if ((jmpFwd && fNew<firstKeyFr) || (!jmpFwd && lastKeyFr<fNew)) continue; //skip if untouchd
+      for (keyFrm=1; keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]; keyFrm++);
+      for (j=0; j<sprite.values.length; j++) {
+        props = sprite.values[j];
+        if (numKeyFr == props.length) propNum = keyFrm-1 //keyframes only
+        else propNum = Math.min(Math.max(0,fNew-firstKeyFr),props.length-1); //or keep in legal range
+        if (sprite.obj != null) {
+          if (props.prop2 == null) sprite.obj[props.prop] = props[propNum];
+          else        sprite.obj[props.prop2][props.prop] = props[propNum];
+      } }
+    } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+  }
+  tmLn.curFrame = fNew;
+  if (tmLn.ID == 0) eval('MM_timelinePlay(tmLnName)');
+}
+
+function MM_initTimelines() {
+    //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+    var ns = navigator.appName == "Netscape";
+    document.MM_Time = new Array(1);
+    document.MM_Time[0] = new Array(2);
+    document.MM_Time["Timeline1"] = document.MM_Time[0];
+    document.MM_Time[0].MM_Name = "Timeline1";
+    document.MM_Time[0].fps = 15;
+    document.MM_Time[0][0] = new String("sprite");
+    document.MM_Time[0][0].slot = 1;
+    if (ns)
+        document.MM_Time[0][0].obj = document["Layer1"];
+    else
+        document.MM_Time[0][0].obj = document.all ? document.all["Layer1"] : null;
+    document.MM_Time[0][0].keyFrames = new Array(1, 9, 19, 33, 47, 61, 79, 95, 110, 130);
+    document.MM_Time[0][0].values = new Array(2);
+    document.MM_Time[0][0].values[0] = new Array(573,560,591,610,599,584,533,481,431,394,359,327,296,267,238,209,179,147,115,102,96,95,96,98,101,105,109,114,119,125,131,137,144,151,160,170,180,189,199,208,218,228,238,249,260,271,277,271,262,253,243,232,221,210,198,187,176,165,155,146,143,154,167,179,190,202,214,225,236,248,259,271,282,294,306,318,331,344,355,356,353,348,342,335,328,321,314,306,299,291,283,275,268,261,260,274,286,297,308,319,331,343,355,368,383,398,415,434,455,479,498,517,536,555,535,510,469,429,385,350,325,275,300,340,380,420,450,480,520,573);
+    document.MM_Time[0][0].values[0].prop = "left";
+    document.MM_Time[0][0].values[1] = new Array(24,42,61,80,98,114,128,138,143,139,129,116,101,85,69,53,38,27,32,55,82,109,137,164,192,219,246,271,295,317,339,360,379,392,403,411,418,423,427,430,432,434,435,434,433,428,419,405,392,379,367,354,340,327,313,299,285,271,257,242,225,221,223,227,231,235,239,244,248,252,257,261,265,270,273,277,279,280,274,259,245,230,216,202,188,174,160,146,131,117,102,87,72,56,40,51,66,81,97,113,129,145,160,176,191,206,220,233,242,245,243,237,230,222,213,202,192,180,168,156,143,130,117,103,90,76,63,50,36,24);
+    document.MM_Time[0][0].values[1].prop = "top";
+    if (!ns) {
+        document.MM_Time[0][0].values[0].prop2 = "style";
+        document.MM_Time[0][0].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][1] = new String("behavior");
+    document.MM_Time[0][1].frame = 130;
+    document.MM_Time[0][1].value = "MM_timelineGoto('Timeline1','1')";
+    document.MM_Time[0].lastFrame = 130;
+    for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+    }
+}
+//-->
+
+  </script>
+<!-- -->
+<body onLoad="MM_timelinePlay('Timeline1')"><!-- --><!-- --><div id="Layer1" style="position:absolute; width:94px; height:102px; z-index:1; left: 440px; top: 24px">
+  <img src="images/genie.gif" width="128" height="128"></div><!-- -->
+
+</body>
+<div align="center"><!--[if gte vml 1]><v:shapetype id="_x0000_t158"
+ coordsize="21600,21600" o:spt="158" adj="1404,10800" path="m@37@0c@38@3@39@1@40@0@41@3@42@1@43@0m@30@4c@31@5@32@6@33@4@34@5@35@6@36@4e">
+ <v:formulas>
+  <v:f eqn="val #0"/>
+  <v:f eqn="prod @0 41 9"/>
+  <v:f eqn="prod @0 23 9"/>
+  <v:f eqn="sum 0 0 @2"/>
+  <v:f eqn="sum 21600 0 #0"/>
+  <v:f eqn="sum 21600 0 @1"/>
+  <v:f eqn="sum 21600 0 @3"/>
+  <v:f eqn="sum #1 0 10800"/>
+  <v:f eqn="sum 21600 0 #1"/>
+  <v:f eqn="prod @8 1 3"/>
+  <v:f eqn="prod @8 2 3"/>
+  <v:f eqn="prod @8 4 3"/>
+  <v:f eqn="prod @8 5 3"/>
+  <v:f eqn="prod @8 2 1"/>
+  <v:f eqn="sum 21600 0 @9"/>
+  <v:f eqn="sum 21600 0 @10"/>
+  <v:f eqn="sum 21600 0 @8"/>
+  <v:f eqn="sum 21600 0 @11"/>
+  <v:f eqn="sum 21600 0 @12"/>
+  <v:f eqn="sum 21600 0 @13"/>
+  <v:f eqn="prod #1 1 3"/>
+  <v:f eqn="prod #1 2 3"/>
+  <v:f eqn="prod #1 4 3"/>
+  <v:f eqn="prod #1 5 3"/>
+  <v:f eqn="prod #1 2 1"/>
+  <v:f eqn="sum 21600 0 @20"/>
+  <v:f eqn="sum 21600 0 @21"/>
+  <v:f eqn="sum 21600 0 @22"/>
+  <v:f eqn="sum 21600 0 @23"/>
+  <v:f eqn="sum 21600 0 @24"/>
+  <v:f eqn="if @7 @19 0"/>
+  <v:f eqn="if @7 @18 @20"/>
+  <v:f eqn="if @7 @17 @21"/>
+  <v:f eqn="if @7 @16 #1"/>
+  <v:f eqn="if @7 @15 @22"/>
+  <v:f eqn="if @7 @14 @23"/>
+  <v:f eqn="if @7 21600 @24"/>
+  <v:f eqn="if @7 0 @29"/>
+  <v:f eqn="if @7 @9 @28"/>
+  <v:f eqn="if @7 @10 @27"/>
+  <v:f eqn="if @7 @8 @8"/>
+  <v:f eqn="if @7 @11 @26"/>
+  <v:f eqn="if @7 @12 @25"/>
+  <v:f eqn="if @7 @13 21600"/>
+  <v:f eqn="sum @36 0 @30"/>
+  <v:f eqn="sum @4 0 @0"/>
+  <v:f eqn="max @30 @37"/>
+  <v:f eqn="min @36 @43"/>
+  <v:f eqn="prod @0 2 1"/>
+  <v:f eqn="sum 21600 0 @48"/>
+  <v:f eqn="mid @36 @43"/>
+  <v:f eqn="mid @30 @37"/>
+ </v:formulas>
+ <v:path textpathok="t" o:connecttype="custom" o:connectlocs="@40,@0;@51,10800;@33,@4;@50,10800"
+  o:connectangles="270,180,90,0"/>
+ <v:textpath on="t" fitshape="t" xscale="t"/>
+ <v:handles>
+  <v:h position="topLeft,#0" yrange="0,2229"/>
+  <v:h position="#1,bottomRight" xrange="8640,12960"/>
+ </v:handles>
+ <o:lock v:ext="edit" text="t" shapetype="t"/>
+</v:shapetype><v:shape id="_x0000_s1025" type="#_x0000_t158" alt="EVİM EVİM GÜZEL EVİM"
+ style='width:290.25pt;height:28.5pt' fillcolor="purple" strokecolor="purple"
+ strokeweight=".35189mm">
+ <v:shadow on="t" type="perspective" color="silver" opacity="52429f" origin="-.5,.5"
+  matrix=",46340f,,.5,,-4768371582e-16"/>
+ <v:textpath style='font-family:"Verdana";font-size:24pt;v-text-kern:t' trim="t"
+  fitpath="t" xscale="f" string="EVİM EVİM GÜZEL EVİM"/>
+</v:shape><![endif]--><![if !vml]><img border="0" width="404" height="43" src="images/image001_9.gif" alt="EVİM EVİM GÜZEL EVİM" v:shapes="_x0000_s1025"><![endif]></div>
+
+<div align="center">&nbsp;</div>
+
+<div align="center">&nbsp;</div>
+<p></p>
+<div align="center">
+  <font face="Arial" color="#000000" size="1">
+  <img border="0" src="images/hearts1%5B1%5D_1.gif" width="25" height="16"></font><img border="0" src="images/aysem.gif" width="131" height="84"><font face="Arial" color="#000000" size="1"><img border="0" src="images/hearts1%5B1%5D_1.gif" width="25" height="16"></font></div>
+
+<div align="center">&nbsp;</div>
+
+<div align="center"><br>&nbsp;</div>
+
+<p></p>
+<table align="center" border="0" width="95%" height="350">
+<tr>
+<td align="center"><a href="images/b_nalanev1.jpg" target="_blank">
+<img src="images/s_nalanev1.jpg" border="0" width="106" height="150"></a></td>
+<td align="center"><a href="images/b_nalanev3.jpg" target="_blank">
+<img src="images/s_nalanev3.jpg" border="0" width="132" height="150"></a></td>
+   <td align="center"><a href="images/b_nalanev8.jpg" target="_blank">
+   <img src="images/s_nalanev7.jpg" border="0" width="98" height="150"></a></td>
+</tr>
+<tr>
+<td align="center"><a href="images/b_nalanev4.jpg" target="_blank">
+<img src="images/s_nalanev4.jpg" border="0" width="101" height="150"></a></td>
+<td align="center"><a href="images/b_nalanev5.jpg" target="_blank">
+<img src="images/s_nalanev5.jpg" border="0" width="101" height="150"></a></td>
+<td align="center"><a href="images/b_nalanev6.jpg" target="_blank">
+<img src="images/s_nalanev6.jpg" border="0" width="95" height="150"></a></td>
+</tr>
+</table>
+<center>
+<p><a href="images/Resim%20076.jpg">
+<img border="2" src="images/Resim%20076_small.jpg" xthumbnail-orig-image="Resim 076.jpg" width="100" height="80"></a><a href="images/Resim%20087.jpg"><img border="2" src="images/Resim%20087_small.jpg" xthumbnail-orig-image="Resim 087.jpg" width="100" height="80"></a><a href="images/Resim%20072.jpg"><img border="2" src="images/Resim%20072_small.jpg" xthumbnail-orig-image="Resim 072.jpg" width="100" height="80"></a><a href="images/Resim%20159.jpg"><img border="2" src="images/Resim%20159_small1.jpg" xthumbnail-orig-image="Resim 159.jpg" width="100" height="80"></a><a href="images/Resim%20030.jpg"><img border="2" src="images/Resim%20030_small.jpg" xthumbnail-orig-image="Resim 030.jpg" width="100" height="80"></a><a href="images/Resim%20135.jpg"><img border="2" src="images/Resim%20135_small.jpg" xthumbnail-orig-image="Resim 135.jpg" width="100" height="80"></a><a href="images/Resim%20158.jpg"><img border="2" src="images/Resim%20158_small.jpg" xthumbnail-orig-image="Resim 158.jpg" width="100" height="80"></a><a href="images/Resim%20073.jpg"><img border="2" src="images/Resim%20073_small.jpg" xthumbnail-orig-image="Resim 073.jpg" width="100" height="80"></a></p>
+<p><a href="images/Resim%20086.jpg">
+<img border="2" src="images/Resim%20086_small.jpg" xthumbnail-orig-image="Resim 086.jpg" width="100" height="80"></a></p>
+</center>
+<table align="center" border="0" width="95%" height="200">
+<tr>
+<td align="center"><a href="images/b_nalanev2.jpg" target="_blank">
+<img src="images/s_nalanev2.jpg" border="0" width="236" height="150"></a></td>
+<td align="center"><a href="images/b_nalanev8.jpg" target="_blank">
+<img src="images/s_nalanev8.jpg" border="0" width="214" height="150"></a></td>
+</tr>
+</table>
+
+<br>
+
+<div align="center"><img src="images/cicekcizgi.gif" border="0" width="600" height="84"></div>
+<p>
+<br>
+</p>
+
+<p align="center"><img border="0" src="images/nazarboncugu.gif" width="44" height="40"></p>
+
+
+</body></html>

@@ -1,0 +1,613 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+	<title>Muzik Odasi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
+    <link rel="File-List" href="muzik_dosyalar/filelist.xml">
+
+<style>
+.spanstyle {
+position:absolute;
+visibility:visible;
+top:-50px;
+font-size:8pt;
+font-family:Tahoma;
+      font-weight:bold;
+      color:white;
+}
+    </style>
+    <script LANGUAGE="JavaScript">
+function popup(url, gen, yuk){
+eval(window.open(url,"quoted","toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizeable=0,width=" + gen + ",height=" + yuk + ",screenX=5,screenY=5,top=5,left=5"));
+}
+    </script>
+
+<script>
+
+var x,y
+var step=20
+var flag=0
+
+// Your snappy message. Important: the space at the end of the sentence!!!
+var message="AkrepNalan "
+message=message.split("")
+
+var xpos=new Array()
+for (i=0;i<=message.length-1;i++) {
+xpos[i]=-50
+}
+
+var ypos=new Array()
+for (i=0;i<=message.length-1;i++) {
+ypos[i]=-50
+}
+
+function handlerMM(e){
+x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX
+y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY
+flag=1
+}
+
+function makesnake() {
+if (flag==1 && document.all) {
+    for (i=message.length-1; i>=1; i--) {
+    xpos[i]=xpos[i-1]+step
+    ypos[i]=ypos[i-1]
+    }
+    xpos[0]=x+step
+    ypos[0]=y
+    
+    for (i=0; i<message.length-1; i++) {
+    var thisspan = eval("span"+(i)+".style")
+    thisspan.posLeft=xpos[i]
+    thisspan.posTop=ypos[i]
+    }
+    }
+    
+    else if (flag==1 && document.layers) {
+    for (i=message.length-1; i>=1; i--) {
+    xpos[i]=xpos[i-1]+step
+    ypos[i]=ypos[i-1]
+    }
+    xpos[0]=x+step
+    ypos[0]=y
+    
+    for (i=0; i<message.length-1; i++) {
+    var thisspan = eval("document.span"+i)
+    thisspan.left=xpos[i]
+    thisspan.top=ypos[i]
+    }
+    }
+    var timer=setTimeout("makesnake()",30)
+}
+
+    </script>
+    <base target="_self">
+    <style fprolloverstyle>A:hover {color: #FF0000; text-decoration: underline; font-weight: bold}
+    </style>
+    <!--[if !mso]>
+    <style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+    </style>
+    <![endif]--><!--[if gte mso 9]>
+	<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+	</xml><![endif]-->
+</head>
+
+<body background="images/blackmusicnote.jpg" bgcolor="#000000" text="white" vlink="#00FFFF" link="#FFFFFF" alink="#FF0000" onLoad="makesnake()" style="width:100%;overflow-x:hidden;overflow-y:scroll" bgproperties="fixed">
+
+<div align="center"><!--[if gte vml 1]><v:shapetype id="_x0000_t170"
+ coordsize="21600,21600" o:spt="170" adj="7200" path="m@0,l@1,m,21600r21600,e">
+ <v:formulas>
+  <v:f eqn="val #0"/>
+  <v:f eqn="sum 21600 0 @0"/>
+  <v:f eqn="prod #0 1 2"/>
+  <v:f eqn="sum 21600 0 @2"/>
+  <v:f eqn="sum @1 21600 @0"/>
+ </v:formulas>
+ <v:path textpathok="t" o:connecttype="custom" o:connectlocs="10800,0;@2,10800;10800,21600;@3,10800"
+  o:connectangles="270,180,90,0"/>
+ <v:textpath on="t" fitshape="t"/>
+ <v:handles>
+  <v:h position="#0,topLeft" xrange="0,10792"/>
+ </v:handles>
+ <o:lock v:ext="edit" text="t" shapetype="t"/>
+</v:shapetype><v:shape id="_x0000_s1026" type="#_x0000_t170" style='width:168pt;
+ height:51pt' adj="2158" fillcolor="#520402" strokecolor="#b2b2b2"
+ strokeweight="1pt">
+ <v:fill color2="#fc0" focus="100%" type="gradient"/>
+ <v:shadow on="t" type="perspective" color="#875b0d" opacity="45875f" origin=",.5"
+  matrix=",,,.5,,-4768371582e-16"/>
+ <v:textpath style='font-family:"Arial Black";v-text-kern:t' trim="t"
+  fitpath="t" string="MÜZİK ODANIZ"/>
+</v:shape><![endif]--><![if !vml]><img border="0" width="228" height="72" src="images/image001_8.gif" alt="MÜZİK ODANIZ" v:shapes="_x0000_s1026"><![endif]></div>
+
+<div align="center">&nbsp;</div>
+
+<div align="center">&nbsp;</div>
+
+<div align="center"><img src="images/pianocat.gif" alt border="0" width="326" height="123"></div>
+
+<div align="center">&nbsp;</div>
+
+<p align="center"><font face="Verdana"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t136" coordsize="21600,21600" o:spt="136" adj="10800" path="m@7,l@8,m@5,21600l@6,21600e">
+ <v:formulas>
+  <v:f eqn="sum #0 0 10800"/>
+  <v:f eqn="prod #0 2 1"/>
+  <v:f eqn="sum 21600 0 @1"/>
+  <v:f eqn="sum 0 0 @2"/>
+  <v:f eqn="sum 21600 0 @3"/>
+  <v:f eqn="if @0 @3 0"/>
+  <v:f eqn="if @0 21600 @1"/>
+  <v:f eqn="if @0 0 @2"/>
+  <v:f eqn="if @0 @4 21600"/>
+  <v:f eqn="mid @5 @6"/>
+  <v:f eqn="mid @8 @5"/>
+  <v:f eqn="mid @7 @8"/>
+  <v:f eqn="mid @6 @7"/>
+  <v:f eqn="sum @6 0 @5"/>
+ </v:formulas>
+ <v:path textpathok="t" o:connecttype="custom" o:connectlocs="@9,0;@10,10800;@11,21600;@12,10800"
+  o:connectangles="270,180,90,0"/>
+ <v:textpath on="t" fitshape="t"/>
+ <v:handles>
+  <v:h position="#0,bottomRight" xrange="6629,14971"/>
+ </v:handles>
+ <o:lock v:ext="edit" text="t" shapetype="t"/>
+</v:shapetype><v:shape id="_x0000_s1025" type="#_x0000_t136" alt="ŞARKILARIMI BURADAN SINIRSIZ DİNLEYEBİLİR VE DE YÜKLEYEBİLİRSİNİZ... HADİ KOLAY GELSİN  :-)"
+ style='width:498.75pt;height:33.75pt' adj=",10800" fillcolor="#9c0"
+ strokecolor="yellow" strokeweight=".35189mm">
+ <v:fill rotate="t"/>
+ <v:shadow on="t" type="perspective" color="#875b0d" opacity="45875f" origin=",.5"
+  matrix=",,,.5,,-4768371582e-16"/>
+ <v:textpath style='font-family:"Verdana";font-size:10pt;v-text-kern:t' trim="t"
+  fitpath="t" string="ŞARKILARIMI BURADAN SINIRSIZ DİNLEYEBİLİR VE DE YÜKLEYEBİLİRSİNİZ...&#13;&#10; &#13;&#10;HADİ KOLAY GELSİN  :-)"/>
+</v:shape><![endif]--><![if !vml]><img border="0" width="667" height="49" src="images/image002_1.gif" alt="ŞARKILARIMI BURADAN SINIRSIZ DİNLEYEBİLİR VE DE YÜKLEYEBİLİRSİNİZ... HADİ KOLAY GELSİN  :-)" v:shapes="_x0000_s1025"><![endif]></font></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img border="0" src="images/notesdac%5B1%5D.gif" width="30" height="16"><img border="0" src="images/notesdac%5B1%5D.gif" width="30" height="16"><img border="0" src="images/notesdac%5B1%5D.gif" width="30" height="16"><img border="0" src="images/notesdac%5B1%5D.gif" width="30" height="16"><img border="0" src="images/notesdac%5B1%5D.gif" width="30" height="16"><img border="0" src="images/notesdac%5B1%5D.gif" width="30" height="16"><img border="0" src="images/notesdac%5B1%5D.gif" width="30" height="16"><img border="0" src="images/notesdac%5B1%5D.gif" width="30" height="16"><img border="0" src="images/notesdac%5B1%5D.gif" width="30" height="16"></p>
+<p>
+<img border="0" src="images/musical_notes.gif">
+<a href="zilzurna.zip">ZİL ZURNA SEVDALAR TIKLA KOMPLE İNDİR DİNLE</a> </p>
+<p>
+<img border="0" src="images/musical_notes.gif">
+<a href="dagcicegi.zip">DAĞ ÇİÇEĞİ TIKLA KOMPLE İNDİR DİNLE</a></p>
+
+<div align="center">
+  <div align="left">
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="662" id="AutoNumber1">
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana">Şarkı Adı</font></b></td>
+        <td width="39" align="center">
+<font face="Verdana"><b>Sözü</b></font></td><td align="center" valign="top" width="90">
+        <font face="Verdana"><b>Real Media</b></font></td>
+        <td width="119" align="center">
+        <font face="Verdana"><b>Window Media</b></font></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Fani Dünya</font></b></td>
+        <td width="39" align="center">
+<a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none">
+<img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td><td align="center" valign="top" width="90">
+        <p><span class="jumperlink">
+        <a href="rack01.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">&nbsp;
+        </font> <a href="rack01.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a></p></td>
+        <td width="119" align="center">
+        <p>
+        <a href="rack01.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></p></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Güneşlerime Kar Yağdı</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center">
+        <p><span class="jumperlink">
+        <a href="rack02.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">&nbsp;
+        </font> <a href="rack02.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00">
+        </font> </p></td>
+        <td width="119" align="center">
+        <a href="rack02.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        <a href="media/f3-zilzurna_sevdalar.mp3" style="text-decoration: none">Zil Zurna Sevdalar</a></font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="rack03.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="rack03.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="rack03.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        İstemem</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="rack04.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="rack04.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="rack04.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Telgraf Direkleri</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="rack05.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="rack05.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="rack05.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Cherie</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="rack06.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="rack06.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="media/wm/rack06.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Çocukluğum Uslansın</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="rack07.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="rack07.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="rack07.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Al Sende Kalsın</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="rack08.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="rack08.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="rack08.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Çingene Pembesi</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="rack09.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="rack09.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="media/wm/rack09.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Hey Yavrum Hey</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="rack10.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="rack10.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="rack10.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Bu Gün Ayın Işığı</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="rack11.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="rack11.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track11.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><font face="Verdana" size="2"><span class="jumperlink">
+        <b>Hepsini Dinle Sıra ile dinle</b></span></font></td>
+        <td width="39" align="center">
+        &nbsp;</td>
+        <td width="90" align="center"><span class="jumperlink"> 
+        <a href="rackall.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="rackall.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="rackall.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+        </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="297" colspan="3">
+        <p align="center">&nbsp;</p>
+        <p align="center">
+        </p></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Sarhoş</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track01.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a><font color="#FFFF00"> </font> </span><a href="Track01.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track01.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Karlar Düşer</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track02.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Track02.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="media/wm/Track02.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Çağır Beni</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track03.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Track03.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track03.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Böyledir Bizim Sevdamız</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track04.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Track04.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track04.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Yarın Olsun</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track05.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Track05.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track05.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Halikarnas</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track06.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Track06.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track06.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Dağ Çiçeği</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track07.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Track07.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track07.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Kolay mı?</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track08.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Track08.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track08.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Aşiyan</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track09.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Track09.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track09.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        Bulut mu Olsam?</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track10.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Track10.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track10.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><b><font face="Verdana" size="2">
+        O Arzular Var ya</font></b></td>
+        <td width="39" align="center">
+        <a href="javascript:popup(&#x27;sozler/yarin_olsun.htm&#x27;,300,500)" style="text-decoration: none"><img border="0" src="images/poems.gif" width="21" height="19" alt="Şarkının Sözü İçin Tıklayınız"></a></td>
+        <td width="90" align="center"><span class="jumperlink">
+        <a href="Track11.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Track11.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Track11.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+      </tr>
+      <tr>
+        <td width="20" align="right">&nbsp;</td>
+        <td width="233"><font face="Verdana" size="2"><span class="jumperlink">
+        <b>Hepsini Dinle Sıra ile dinle</b></span></font></td>
+        <td width="39" align="center">
+        &nbsp;</td>
+        <td width="90" align="center"><span class="jumperlink"> 
+        <a href="Trackall.ram" style="text-decoration: none">
+        <font color="#FFFF00">Real</font></a></span><font color="#FFFF00">
+        </font> <a href="Trackall.ram" style="text-decoration: none">
+        <font color="#FFFF00"><img src="images/real.gif" border="0" width="13" height="11"></font></a><font color="#FFFF00"> 
+        &nbsp;</font></td>
+        <td width="119" align="center">
+        <a href="Trackall.asx" style="text-decoration: none"><span class="jumperlink">
+        <font color="#FFFF00">WMedia</font></span><font color="#FFFF00">
+        <img src="images/sound_a.gif" border="0" width="11" height="11"></font></a></td>
+        </tr>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
